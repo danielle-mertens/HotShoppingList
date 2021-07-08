@@ -1,0 +1,89 @@
+body {
+  background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+	color: white;
+  font: normal 32px/1.6 system-ui, sans-serif;
+	text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+  margin: 3rem;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus,
+a:hover {
+  text-decoration-color: black;
+}
+
+input {
+  font: inherit;
+  padding: 0.2em 0.5em;
+}
+
+
+
+.custBtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: transparent;
+  color: #6F808C;
+  width: 40px;
+  height: 60px;
+  border: 3px solid transparent;
+  border-left: 0px;
+  border-radius: 0 10px 10px 0;
+  transition: all .2s;
+}
+
+.custBtn:hover {
+  color: #A6BFD1;
+  cursor: pointer;
+}
+
+.custBtn:focus {
+  outline: none;
+  }
+
+  .close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+
+
